@@ -1,0 +1,39 @@
+html {
+	font-size: 15px;
+	font-family: 'Arimo', sans-serif;
+	background-color: #B2EDFF;
+}
+body {
+	width: 700px;
+	margin: 0 auto;
+	background-color: #FF99BC; /*makes the color of the body the hex value*/
+	border: 7px solid pink; /*makes the color of the border pink*/
+}
+p, li {
+  color: green;
+	font-size: 18px;
+	line-height: 1;
+	letter-spacing: 2px;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
+h1 {
+	margin: 0;
+	padding: 15px 0;
+	font-size: 55px;
+	text-align: center;
+	color: #B2EDFF;
+	text-shadow: 3px 3px 1px black;
+}
+h2 {
+	color: #B2EDFF;
+	border: 5px solid orange;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 2px 2px 1px black
+}
+a:hover {
+	color: purple; /*turns links purple on mouse hover*/
+}
